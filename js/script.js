@@ -10,8 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
     headerToolbar: {
       end: 'today,next',
       center: 'title',
-      start: 'dayGridWeek,dayGridMonth,listMonth'
+      start: 'dayGridWeek,dayGridMonth', //,listMonth'
     },
+    validRange: {
+      start: '2023-04-01', // set the start date to the beginning of the year
+      end: '2023-06-31' // set the end date to the end of the year
+    },
+    titleRangeSeparator: '..',
     buttonText: {
       week: 'semana',
       month: 'mês',
