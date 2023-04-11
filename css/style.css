@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+@font-face {
+	font-family: "Monoid";
+	src: url("../font/Monoid-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Monoid-Bold";
+	src: url("../font/Monoid-Bold.ttf");
+}
+
+:root {
+	--text: #714fac;
+	--bg: #fff;
+	--secondary: #714fac;
+}
+
+html,
+body {
+	font-family: "Fira Code", "Monoid";
+	background-color: var(--bg);
+	color: var(--text) !important;
+	margin: 0;
+	text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text: #fff;
+		--bg: #1b2023;
+		--secondary: purple;
+	}
+}
+
+header {
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: var(--secondary);
+	height: 7vh;
+}
+
+.content {
+
+}
+
+footer {
+	height: 3vh;
+	/* position: fixed;
+	bottom: 10px;
+	right: 10px; */
+	opacity: 0.7;
+}
+
+footer a {
+	color: var(--text);
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+#picture {
+	max-height: 6vh;
+	border-radius: 15px;
+	border: 2px solid var(--secondary);
+	padding: 8px 0 0 8px;
+	background-color: var(--bg);
+}
+
+#calendar {
+  max-width: 90vw;
+  height: 70vh;
+  margin: 0 auto;
+}
+
+button {
+	background-color: var(--secondary) !important;
+	border-color: var(--bg) !important;
+}
+
+thead {
+	border: 3px solid var(--secondary);
+}
+
+.fc-daygrid-day-number {
+	font-size: 4vh;
+}
+
+.fc-event {
+	font-size: 1.5vh;
+}
+.copy {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.fc-col-header-cell {
+	background-color: var(--bg);
+}
+
+.fc-daygrid-day-number {
+	font-family: 'Ubuntu Mono', monospace;
+}
