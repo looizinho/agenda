@@ -7,10 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // height: 'auto',
     // aspectRatio: 2.5,
     // themeSystem: 'bootstrap5',
+    // headerToolbar: {
+    //   end: 'today,next',
+    //   center: 'title',
+    //   start: 'dayGridWeek,dayGridMonth', //,listMonth'
+    // },
     headerToolbar: {
-      end: 'today,next',
-      center: 'title',
-      start: 'dayGridWeek,dayGridMonth', //,listMonth'
+      end: 'dayGridWeek,dayGridMonth',
+      start: 'title'
     },
     validRange: {
       start: '2023-04-01', // set the start date to the beginning of the year
@@ -28,6 +32,28 @@ document.addEventListener('DOMContentLoaded', function() {
     eventBorderColor: '#714fac',
     
     events: [
+      {
+        title: 'estudando',
+        start: '2023-04-02',
+      },
+
+      {
+        title: '',
+        start: '2023-04-04',
+        display: 'background'
+      },
+      {
+        title: 'em evento',
+        start: '2023-04-04',
+      },
+      
+      {
+        title: 'indisponível',
+        start: '2023-04-07',
+        end: '2023-04-10',
+        // url: '//sidekick.tec.br'
+      },
+
       {
         title: '',
         start: '2023-04-12',
