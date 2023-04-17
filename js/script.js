@@ -63,8 +63,19 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         title: 'em evento',
         start: '2023-04-12',
-        end: '2023-04-16',
-        // url: '//sidekick.tec.br'
+        end: '2023-04-16'
+      },
+
+      {
+        title: '',
+        start: '2023-04-18',
+        end: '2023-04-22',
+        display: 'background'
+      },
+      {
+        title: 'em evento',
+        start: '2023-04-18',
+        end: '2023-04-22'
       },
 
       {
@@ -76,8 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         title: 'em evento',
         start: '2023-04-22',
-        end: '2023-04-27',
-        // url: '//sidekick.tec.br'
+        end: '2023-04-27'
       }
     ]
   });
