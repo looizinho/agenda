@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
       start: 'title'
     },
     validRange: {
-      start: '2023-04-01', // set the start date to the beginning of the year
-      end: '2023-06-31' // set the end date to the end of the year
+      start: '2023-04-30', // set the start date to the beginning of the year
+      end: '2023-06-04' // set the end date to the end of the year
     },
     titleRangeSeparator: '..',
     buttonText: {
@@ -30,66 +30,88 @@ document.addEventListener('DOMContentLoaded', function() {
     eventColor: 'rgba(0,0,0,0)',
     eventBackgroundColor: 'red',
     eventBorderColor: '#714fac',
-    
+
+
     events: [
       {
-        title: 'estudando',
-        start: '2023-04-02',
-      },
-
-      {
-        title: '',
-        start: '2023-04-04',
-        display: 'background'
-      },
-      {
-        title: 'em evento',
-        start: '2023-04-04',
-      },
-      
-      {
         title: 'indisponível',
-        start: '2023-04-07',
-        end: '2023-04-10',
-        // url: '//sidekick.tec.br'
+        start: '2023-04-30',
+        end: '2023-05-02',
       },
 
       {
         title: '',
-        start: '2023-04-12',
-        end: '2023-04-16',
+        start: '2023-05-05',
         display: 'background'
       },
       {
-        title: 'em evento',
-        start: '2023-04-12',
-        end: '2023-04-16'
-      },
-
-      {
-        title: '',
-        start: '2023-04-18',
-        end: '2023-04-22',
-        display: 'background'
-      },
-      {
-        title: 'em evento',
-        start: '2023-04-18',
-        end: '2023-04-22'
-      },
-
-      {
-        title: '',
-        start: '2023-04-22',
-        end: '2023-04-27',
-        display: 'background'
-      },
-      {
-        title: 'em evento',
-        start: '2023-04-22',
-        end: '2023-04-27'
+        title: 'reunião',
+        start: '2023-05-05',
       }
     ]
+
+    // ABRIL 2023
+    // events: [
+    //   {
+    //     title: 'estudando',
+    //     start: '2023-04-02',
+    //   },
+
+    //   {
+    //     title: '',
+    //     start: '2023-04-04',
+    //     display: 'background'
+    //   },
+    //   {
+    //     title: 'em evento',
+    //     start: '2023-04-04',
+    //   },
+      
+    //   {
+    //     title: 'indisponível',
+    //     start: '2023-04-07',
+    //     end: '2023-04-10',
+    //     // url: '//sidekick.tec.br'
+    //   },
+
+    //   {
+    //     title: '',
+    //     start: '2023-04-12',
+    //     end: '2023-04-16',
+    //     display: 'background'
+    //   },
+    //   {
+    //     title: 'em evento',
+    //     start: '2023-04-12',
+    //     end: '2023-04-16'
+    //   },
+
+    //   {
+    //     title: '',
+    //     start: '2023-04-18',
+    //     end: '2023-04-22',
+    //     display: 'background'
+    //   },
+    //   {
+    //     title: 'em evento',
+    //     start: '2023-04-18',
+    //     end: '2023-04-22'
+    //   },
+
+    //   {
+    //     title: '',
+    //     start: '2023-04-22',
+    //     end: '2023-04-27',
+    //     display: 'background'
+    //   },
+    //   {
+    //     title: 'em evento',
+    //     start: '2023-04-22',
+    //     end: '2023-04-27'
+    //   }
+    // ]
+
+
   });
 
   calendar.render();

@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
 @font-face {
 	font-family: "Monoid";
-	src: url("../font/Monoid-Regular.ttf");
+	src: url("../fonts/Monoid-Regular.ttf");
 }
 
 @font-face {
 	font-family: "Monoid-Bold";
-	src: url("../font/Monoid-Bold.ttf");
+	src: url("../fonts/Monoid-Bold.ttf");
 }
 
 :root {
